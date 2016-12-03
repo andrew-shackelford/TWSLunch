@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11129.15" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DAO-aB-UhH">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11103.10"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tuesday-->
+        <scene sceneID="60K-Yq-EFg">
+            <objects>
+                <viewController id="mcx-ei-0gQ" customClass="TuesdayViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="erG-14-CWq"/>
+                        <viewControllerLayoutGuide type="bottom" id="BtD-Ci-AP2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1fb-DV-LfT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tuesday's Lunch is:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PeQ-qZ-BRA">
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PcU-x8-a1T">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BmI-qO-5jC">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yBO-KV-XGu">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rhb-ng-rwF">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uTw-PG-oks">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbO-YM-X7m">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Dx-Pn-3qP">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j8b-Za-KOw">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x0C-Ax-JWu">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j70-Yf-fsj">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XDL-26-Mp5">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AIG-Ni-Ip5">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="yBO-KV-XGu" secondAttribute="trailing" constant="16" id="2op-fF-I6Z"/>
+                            <constraint firstAttribute="trailing" secondItem="tbO-YM-X7m" secondAttribute="trailing" constant="16" id="5p1-wx-T14"/>
+                            <constraint firstItem="tbO-YM-X7m" firstAttribute="leading" secondItem="1fb-DV-LfT" secondAttribute="leading" constant="38" id="7XI-6S-W1c"/>
+                            <constraint firstItem="yBO-KV-XGu" firstAttribute="leading" secondItem="1fb-DV-LfT" secondAttribute="leading" constant="38" id="8h2-MB-jck"/>
+                            <constraint firstItem="uTw-PG-oks" firstAttribute="top" secondItem="XDL-26-Mp5" secondAttribute="bottom" constant="-9" id="AHM-Wn-yRG"/>
+                            <constraint firstItem="AIG-Ni-Ip5" firstAttribute="top" secondItem="uTw-PG-oks" secondAttribute="bottom" constant="8" id="AHa-qT-Qbv"/>
+                            <constraint firstItem="tbO-YM-X7m" firstAttribute="top" secondItem="AIG-Ni-Ip5" secondAttribute="bottom" constant="-9" id="AL1-oi-orJ"/>
+                            <constraint firstAttribute="trailing" secondItem="j8b-Za-KOw" secondAttribute="trailing" constant="16" id="GNb-Az-6KK"/>
+                            <constraint firstItem="Rhb-ng-rwF" firstAttribute="leading" secondItem="1fb-DV-LfT" secondAttribute="leading" constant="38" id="IHk-sl-J90"/>
+                            <constraint firstItem="uTw-PG-oks" firstAttribute="leading" secondItem="1fb-DV-LfT" secondAttribute="leading" constant="38" id="KLo-oS-zVi"/>
+                            <constraint firstAttribute="centerX" secondItem="PeQ-qZ-BRA" secondAttribute="centerX" constant="-0.5" id="KXJ-nc-glG"/>
+                            <constraint firstItem="j70-Yf-fsj" firstAttribute="leading" secondItem="1fb-DV-LfT" secondAttribute="leading" constant="16" id="L8J-SY-cL4"/>
+                            <constraint firstItem="PcU-x8-a1T" firstAttribute="leading" secondItem="1fb-DV-LfT" secondAttribute="leading" constant="38" id="OPX-tf-fk4"/>
+                            <constraint firstItem="BmI-qO-5jC" firstAttribute="leading" secondItem="1fb-DV-LfT" secondAttribute="leading" constant="38" id="PXk-Vc-kiP"/>
+                            <constraint firstAttribute="trailing" secondItem="PcU-x8-a1T" secondAttribute="trailing" constant="16" id="R77-7p-gDq"/>
+                            <constraint firstAttribute="trailing" secondItem="j70-Yf-fsj" secondAttribute="trailing" constant="16" id="SqP-7s-2h0"/>
+                            <constraint firstItem="x0C-Ax-JWu" firstAttribute="leading" secondItem="1fb-DV-LfT" secondAttribute="leading" constant="16" id="VtV-Cq-fYX"/>
+                            <constraint firstAttribute="trailing" secondItem="XDL-26-Mp5" secondAttribute="trailing" constant="16" id="XEv-R0-Onn"/>
+                            <constraint firstAttribute="trailing" secondItem="Rhb-ng-rwF" secondAttribute="trailing" constant="16" id="Xrr-Pw-NIH"/>
+                            <constraint firstItem="XDL-26-Mp5" firstAttribute="leading" secondItem="1fb-DV-LfT" secondAttribute="leading" constant="16" id="Z1X-xW-O7E"/>
+                            <constraint firstItem="j8b-Za-KOw" firstAttribute="leading" secondItem="1fb-DV-LfT" secondAttribute="leading" constant="16" id="cxW-3L-3SE"/>
+                            <constraint firstAttribute="trailing" secondItem="AIG-Ni-Ip5" secondAttribute="trailing" constant="16" id="dK3-DX-2QA"/>
+                            <constraint firstItem="j70-Yf-fsj" firstAttribute="top" secondItem="yBO-KV-XGu" secondAttribute="bottom" constant="8" id="e3Y-Mw-MfW"/>
+                            <constraint firstItem="XDL-26-Mp5" firstAttribute="top" secondItem="Rhb-ng-rwF" secondAttribute="bottom" constant="8" id="eyM-Gb-s8D"/>
+                            <constraint firstAttribute="trailing" secondItem="BmI-qO-5jC" secondAttribute="trailing" constant="16" id="eyS-wJ-EDG"/>
+                            <constraint firstItem="AIG-Ni-Ip5" firstAttribute="leading" secondItem="1fb-DV-LfT" secondAttribute="leading" constant="16" id="hqy-Uf-mZb"/>
+                            <constraint firstItem="1Dx-Pn-3qP" firstAttribute="top" secondItem="PeQ-qZ-BRA" secondAttribute="bottom" constant="8" id="iUb-O8-MDI"/>
+                            <constraint firstItem="PcU-x8-a1T" firstAttribute="top" secondItem="1Dx-Pn-3qP" secondAttribute="bottom" constant="-9" id="jXf-L7-MJV"/>
+                            <constraint firstItem="x0C-Ax-JWu" firstAttribute="top" secondItem="BmI-qO-5jC" secondAttribute="bottom" constant="8" id="jl6-g6-VAB"/>
+                            <constraint firstItem="1Dx-Pn-3qP" firstAttribute="leading" secondItem="1fb-DV-LfT" secondAttribute="leading" constant="16" id="mfj-n9-VWV"/>
+                            <constraint firstItem="BmI-qO-5jC" firstAttribute="top" secondItem="j8b-Za-KOw" secondAttribute="bottom" constant="-9" id="pQf-OF-aLE"/>
+                            <constraint firstItem="yBO-KV-XGu" firstAttribute="top" secondItem="x0C-Ax-JWu" secondAttribute="bottom" constant="-9" id="pYG-f0-XVg"/>
+                            <constraint firstAttribute="trailing" secondItem="x0C-Ax-JWu" secondAttribute="trailing" constant="16" id="rfx-iX-b1e"/>
+                            <constraint firstItem="Rhb-ng-rwF" firstAttribute="top" secondItem="j70-Yf-fsj" secondAttribute="bottom" constant="-9" id="svE-1q-V32"/>
+                            <constraint firstItem="PeQ-qZ-BRA" firstAttribute="top" secondItem="erG-14-CWq" secondAttribute="bottom" constant="8" id="u1A-6f-LF0"/>
+                            <constraint firstItem="j8b-Za-KOw" firstAttribute="top" secondItem="PcU-x8-a1T" secondAttribute="bottom" constant="8" id="vq7-e2-mTY"/>
+                            <constraint firstAttribute="trailing" secondItem="uTw-PG-oks" secondAttribute="trailing" constant="16" id="vrQ-ui-kmR"/>
+                            <constraint firstAttribute="trailing" secondItem="1Dx-Pn-3qP" secondAttribute="trailing" constant="16" id="zvU-jR-gge"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tuesday" image="Clock-32.png" selectedImage="tue.png" id="x0g-RM-l02">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="Clock Filled-32"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="categoryFive" destination="XDL-26-Mp5" id="UTM-Hn-2rZ"/>
+                        <outlet property="categoryFour" destination="j70-Yf-fsj" id="adg-u2-3eg"/>
+                        <outlet property="categoryOne" destination="1Dx-Pn-3qP" id="0JT-xv-bPm"/>
+                        <outlet property="categorySix" destination="AIG-Ni-Ip5" id="W41-9T-zgN"/>
+                        <outlet property="categoryThree" destination="x0C-Ax-JWu" id="U2i-Tr-0rp"/>
+                        <outlet property="categoryTwo" destination="j8b-Za-KOw" id="Vbh-2H-yLL"/>
+                        <outlet property="itemFive" destination="uTw-PG-oks" id="LdR-st-7gz"/>
+                        <outlet property="itemFour" destination="Rhb-ng-rwF" id="Mfz-k7-RXE"/>
+                        <outlet property="itemOne" destination="PcU-x8-a1T" id="QTJ-c8-GZc"/>
+                        <outlet property="itemSix" destination="tbO-YM-X7m" id="i1c-ky-RwT"/>
+                        <outlet property="itemThree" destination="yBO-KV-XGu" id="7Ux-KQ-zTj"/>
+                        <outlet property="itemTwo" destination="BmI-qO-5jC" id="ZSe-no-77f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OsP-da-zKF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="547" y="-558"/>
+        </scene>
+        <!--Wednesday-->
+        <scene sceneID="DxB-37-noc">
+            <objects>
+                <viewController id="B1v-qq-jfL" customClass="WednesdayViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qhB-60-MMJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="sgH-YU-q67"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="soj-rB-hX3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w70-YF-GT2">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U3Y-d6-9Ul">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Xg-nY-xQd">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ayt-66-7sg">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16i-t8-zmW">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RKo-U8-rgG">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cy8-3G-Gv4">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ymb-qu-w4l">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XIB-Rf-aWZ">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r78-ev-Hdt">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hrp-5j-Ire">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="foU-xb-DMb">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wednesday's Lunch is:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1l-d7-9v6">
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="16i-t8-zmW" firstAttribute="leading" secondItem="soj-rB-hX3" secondAttribute="leading" constant="38" id="0mg-1d-jmq"/>
+                            <constraint firstItem="RKo-U8-rgG" firstAttribute="leading" secondItem="soj-rB-hX3" secondAttribute="leading" constant="38" id="2wK-lG-KqL"/>
+                            <constraint firstItem="w70-YF-GT2" firstAttribute="top" secondItem="Cy8-3G-Gv4" secondAttribute="bottom" constant="-9" id="3YW-Rf-Rfv"/>
+                            <constraint firstAttribute="trailing" secondItem="Cy8-3G-Gv4" secondAttribute="trailing" constant="16" id="3mk-eb-Ybu"/>
+                            <constraint firstAttribute="trailing" secondItem="U3Y-d6-9Ul" secondAttribute="trailing" constant="16" id="3sV-aw-KbJ"/>
+                            <constraint firstAttribute="trailing" secondItem="foU-xb-DMb" secondAttribute="trailing" constant="16" id="5SN-fr-Stf"/>
+                            <constraint firstItem="hrp-5j-Ire" firstAttribute="top" secondItem="Ayt-66-7sg" secondAttribute="bottom" constant="8" id="6OH-Lm-UPc"/>
+                            <constraint firstItem="U3Y-d6-9Ul" firstAttribute="leading" secondItem="soj-rB-hX3" secondAttribute="leading" constant="38" id="7go-0w-tLF"/>
+                            <constraint firstAttribute="trailing" secondItem="16i-t8-zmW" secondAttribute="trailing" constant="16" id="A1p-U7-rRu"/>
+                            <constraint firstItem="RKo-U8-rgG" firstAttribute="top" secondItem="foU-xb-DMb" secondAttribute="bottom" constant="-9" id="Ajx-Kp-ly5"/>
+                            <constraint firstItem="Ymb-qu-w4l" firstAttribute="top" secondItem="w70-YF-GT2" secondAttribute="bottom" constant="8" id="DGb-eT-w73"/>
+                            <constraint firstAttribute="trailing" secondItem="XIB-Rf-aWZ" secondAttribute="trailing" constant="16" id="FIf-fF-S2D"/>
+                            <constraint firstItem="U3Y-d6-9Ul" firstAttribute="top" secondItem="Ymb-qu-w4l" secondAttribute="bottom" constant="-9" id="Jh9-Mb-SCW"/>
+                            <constraint firstItem="Ymb-qu-w4l" firstAttribute="leading" secondItem="soj-rB-hX3" secondAttribute="leading" constant="16" id="KHw-Ju-VM0"/>
+                            <constraint firstItem="w70-YF-GT2" firstAttribute="leading" secondItem="soj-rB-hX3" secondAttribute="leading" constant="38" id="Lyc-OC-UAf"/>
+                            <constraint firstAttribute="trailing" secondItem="w70-YF-GT2" secondAttribute="trailing" constant="16" id="Mza-sI-LyG"/>
+                            <constraint firstItem="16i-t8-zmW" firstAttribute="top" secondItem="hrp-5j-Ire" secondAttribute="bottom" constant="-9" id="PjK-KU-rJe"/>
+                            <constraint firstAttribute="trailing" secondItem="7Xg-nY-xQd" secondAttribute="trailing" constant="16" id="R5c-Z1-ETy"/>
+                            <constraint firstItem="Cy8-3G-Gv4" firstAttribute="leading" secondItem="soj-rB-hX3" secondAttribute="leading" constant="16" id="RKz-64-6vI"/>
+                            <constraint firstAttribute="trailing" secondItem="Ayt-66-7sg" secondAttribute="trailing" constant="16" id="SHQ-SF-mdG"/>
+                            <constraint firstItem="hrp-5j-Ire" firstAttribute="leading" secondItem="soj-rB-hX3" secondAttribute="leading" constant="16" id="TwO-pj-l0h"/>
+                            <constraint firstAttribute="centerX" secondItem="d1l-d7-9v6" secondAttribute="centerX" constant="-0.5" id="UHW-1s-573"/>
+                            <constraint firstItem="XIB-Rf-aWZ" firstAttribute="leading" secondItem="soj-rB-hX3" secondAttribute="leading" constant="16" id="Zhf-o8-YJy"/>
+                            <constraint firstItem="foU-xb-DMb" firstAttribute="top" secondItem="16i-t8-zmW" secondAttribute="bottom" constant="8" id="aVx-oM-FkR"/>
+                            <constraint firstItem="Cy8-3G-Gv4" firstAttribute="top" secondItem="d1l-d7-9v6" secondAttribute="bottom" constant="8" id="bVu-3c-jJ4"/>
+                            <constraint firstItem="r78-ev-Hdt" firstAttribute="top" secondItem="7Xg-nY-xQd" secondAttribute="bottom" constant="8" id="caI-BK-gBT"/>
+                            <constraint firstItem="Ayt-66-7sg" firstAttribute="leading" secondItem="soj-rB-hX3" secondAttribute="leading" constant="38" id="dBu-bX-JxE"/>
+                            <constraint firstAttribute="trailing" secondItem="hrp-5j-Ire" secondAttribute="trailing" constant="16" id="dgJ-wG-GMc"/>
+                            <constraint firstItem="Ayt-66-7sg" firstAttribute="top" secondItem="r78-ev-Hdt" secondAttribute="bottom" constant="-9" id="k8v-PP-U3j"/>
+                            <constraint firstItem="foU-xb-DMb" firstAttribute="leading" secondItem="soj-rB-hX3" secondAttribute="leading" constant="16" id="kNZ-2G-oYs"/>
+                            <constraint firstItem="7Xg-nY-xQd" firstAttribute="top" secondItem="XIB-Rf-aWZ" secondAttribute="bottom" constant="-9" id="l6x-gM-Il2"/>
+                            <constraint firstItem="7Xg-nY-xQd" firstAttribute="leading" secondItem="soj-rB-hX3" secondAttribute="leading" constant="38" id="mOV-t7-ZwU"/>
+                            <constraint firstItem="r78-ev-Hdt" firstAttribute="leading" secondItem="soj-rB-hX3" secondAttribute="leading" constant="16" id="prf-Gb-d5J"/>
+                            <constraint firstAttribute="trailing" secondItem="RKo-U8-rgG" secondAttribute="trailing" constant="16" id="spZ-5F-7Kf"/>
+                            <constraint firstItem="d1l-d7-9v6" firstAttribute="top" secondItem="qhB-60-MMJ" secondAttribute="bottom" constant="8" id="uFk-Ba-UAZ"/>
+                            <constraint firstAttribute="trailing" secondItem="Ymb-qu-w4l" secondAttribute="trailing" constant="16" id="vhz-sg-SwK"/>
+                            <constraint firstAttribute="trailing" secondItem="r78-ev-Hdt" secondAttribute="trailing" constant="16" id="wpA-WA-BMw"/>
+                            <constraint firstItem="XIB-Rf-aWZ" firstAttribute="top" secondItem="U3Y-d6-9Ul" secondAttribute="bottom" constant="8" id="yr9-C0-Z9P"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Wednesday" image="Clock-32.png" selectedImage="first" id="TrR-yW-yij">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="Clock Filled-32"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="categoryFive" destination="hrp-5j-Ire" id="JbT-o9-ycx"/>
+                        <outlet property="categoryFour" destination="r78-ev-Hdt" id="4dJ-OR-3wV"/>
+                        <outlet property="categoryOne" destination="Cy8-3G-Gv4" id="Cx8-Cf-E8M"/>
+                        <outlet property="categorySix" destination="foU-xb-DMb" id="axK-IF-Fqv"/>
+                        <outlet property="categoryThree" destination="XIB-Rf-aWZ" id="fUw-Jc-Jc6"/>
+                        <outlet property="categoryTwo" destination="Ymb-qu-w4l" id="UNY-iX-8kS"/>
+                        <outlet property="itemFive" destination="16i-t8-zmW" id="5uW-6J-RIl"/>
+                        <outlet property="itemFour" destination="Ayt-66-7sg" id="wdL-fd-h5I"/>
+                        <outlet property="itemOne" destination="w70-YF-GT2" id="PIY-2R-kna"/>
+                        <outlet property="itemSix" destination="RKo-U8-rgG" id="jPl-eF-fOf"/>
+                        <outlet property="itemThree" destination="7Xg-nY-xQd" id="urj-xq-PBC"/>
+                        <outlet property="itemTwo" destination="U3Y-d6-9Ul" id="Lxq-ux-hjw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FoX-tU-1AK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="547" y="124"/>
+        </scene>
+        <!--Thursday-->
+        <scene sceneID="82M-dP-Wzz">
+            <objects>
+                <viewController id="YbR-At-nPw" customClass="ThursdayViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wG0-UN-y9j"/>
+                        <viewControllerLayoutGuide type="bottom" id="hHe-F5-bbs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XPI-6T-MKi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thursday's Lunch is:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j9F-Hp-Vsn">
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L7C-dZ-xJy">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6i-1C-5Nw">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8C-MR-AJw">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFf-vo-LsG">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x5S-Bm-wIl">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shD-3k-ehH">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BH4-23-092">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDS-Oh-vxr">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H2a-8J-hRY">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="00S-fV-DKj">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rox-0G-hE7">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7o9-XA-0vW">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="00S-fV-DKj" firstAttribute="top" secondItem="i8C-MR-AJw" secondAttribute="bottom" constant="8" id="1Pa-Dz-Kvl"/>
+                            <constraint firstItem="rox-0G-hE7" firstAttribute="leading" secondItem="XPI-6T-MKi" secondAttribute="leading" constant="16" id="3U4-kB-gya"/>
+                            <constraint firstItem="j9F-Hp-Vsn" firstAttribute="top" secondItem="wG0-UN-y9j" secondAttribute="bottom" constant="8" id="4QF-b8-3Ta"/>
+                            <constraint firstAttribute="trailing" secondItem="shD-3k-ehH" secondAttribute="trailing" constant="16" id="4Z7-Nq-7QI"/>
+                            <constraint firstAttribute="trailing" secondItem="00S-fV-DKj" secondAttribute="trailing" constant="16" id="52V-vp-ztf"/>
+                            <constraint firstItem="H2a-8J-hRY" firstAttribute="top" secondItem="x6i-1C-5Nw" secondAttribute="bottom" constant="8" id="D1e-a7-3eA"/>
+                            <constraint firstAttribute="trailing" secondItem="nFf-vo-LsG" secondAttribute="trailing" constant="16" id="DR3-7t-nlb"/>
+                            <constraint firstItem="x6i-1C-5Nw" firstAttribute="leading" secondItem="XPI-6T-MKi" secondAttribute="leading" constant="38" id="FOx-W9-YdF"/>
+                            <constraint firstAttribute="trailing" secondItem="L7C-dZ-xJy" secondAttribute="trailing" constant="16" id="FyH-6C-E8r"/>
+                            <constraint firstItem="shD-3k-ehH" firstAttribute="top" secondItem="7o9-XA-0vW" secondAttribute="bottom" constant="-9" id="HUJ-vi-MYq"/>
+                            <constraint firstItem="00S-fV-DKj" firstAttribute="leading" secondItem="XPI-6T-MKi" secondAttribute="leading" constant="16" id="JmG-2L-Z4d"/>
+                            <constraint firstAttribute="trailing" secondItem="x6i-1C-5Nw" secondAttribute="trailing" constant="16" id="Kv7-4Y-3Rv"/>
+                            <constraint firstItem="x5S-Bm-wIl" firstAttribute="top" secondItem="rox-0G-hE7" secondAttribute="bottom" constant="-9" id="MFz-df-uMe"/>
+                            <constraint firstAttribute="centerX" secondItem="j9F-Hp-Vsn" secondAttribute="centerX" constant="-0.5" id="NrE-NF-4cG"/>
+                            <constraint firstAttribute="trailing" secondItem="7o9-XA-0vW" secondAttribute="trailing" constant="16" id="Tqe-jI-2kY"/>
+                            <constraint firstAttribute="trailing" secondItem="rox-0G-hE7" secondAttribute="trailing" constant="16" id="WFd-Jd-EVy"/>
+                            <constraint firstItem="BH4-23-092" firstAttribute="leading" secondItem="XPI-6T-MKi" secondAttribute="leading" constant="16" id="Wle-XU-G3k"/>
+                            <constraint firstItem="eDS-Oh-vxr" firstAttribute="leading" secondItem="XPI-6T-MKi" secondAttribute="leading" constant="16" id="Wsd-RR-LKh"/>
+                            <constraint firstItem="L7C-dZ-xJy" firstAttribute="top" secondItem="BH4-23-092" secondAttribute="bottom" constant="-9" id="YvH-E8-nLg"/>
+                            <constraint firstItem="7o9-XA-0vW" firstAttribute="top" secondItem="x5S-Bm-wIl" secondAttribute="bottom" constant="8" id="a4F-nR-yry"/>
+                            <constraint firstItem="i8C-MR-AJw" firstAttribute="top" secondItem="H2a-8J-hRY" secondAttribute="bottom" constant="-9" id="axl-Gr-yhE"/>
+                            <constraint firstAttribute="trailing" secondItem="x5S-Bm-wIl" secondAttribute="trailing" constant="16" id="bFf-Rg-mAI"/>
+                            <constraint firstItem="BH4-23-092" firstAttribute="top" secondItem="j9F-Hp-Vsn" secondAttribute="bottom" constant="8" id="bRG-bB-Tkb"/>
+                            <constraint firstItem="rox-0G-hE7" firstAttribute="top" secondItem="nFf-vo-LsG" secondAttribute="bottom" constant="8" id="cba-zw-IPY"/>
+                            <constraint firstItem="i8C-MR-AJw" firstAttribute="leading" secondItem="XPI-6T-MKi" secondAttribute="leading" constant="38" id="g5c-0o-nUy"/>
+                            <constraint firstItem="x5S-Bm-wIl" firstAttribute="leading" secondItem="XPI-6T-MKi" secondAttribute="leading" constant="38" id="gP9-XP-yLl"/>
+                            <constraint firstItem="x6i-1C-5Nw" firstAttribute="top" secondItem="eDS-Oh-vxr" secondAttribute="bottom" constant="-9" id="h9q-b8-nqE"/>
+                            <constraint firstAttribute="trailing" secondItem="eDS-Oh-vxr" secondAttribute="trailing" constant="16" id="hSI-PZ-oFU"/>
+                            <constraint firstItem="H2a-8J-hRY" firstAttribute="leading" secondItem="XPI-6T-MKi" secondAttribute="leading" constant="16" id="j1D-oy-TV6"/>
+                            <constraint firstAttribute="trailing" secondItem="H2a-8J-hRY" secondAttribute="trailing" constant="16" id="nCj-MO-yxX"/>
+                            <constraint firstAttribute="trailing" secondItem="BH4-23-092" secondAttribute="trailing" constant="16" id="orK-6y-hH0"/>
+                            <constraint firstItem="nFf-vo-LsG" firstAttribute="leading" secondItem="XPI-6T-MKi" secondAttribute="leading" constant="38" id="p2N-An-q3R"/>
+                            <constraint firstAttribute="trailing" secondItem="i8C-MR-AJw" secondAttribute="trailing" constant="16" id="r1s-cv-UqY"/>
+                            <constraint firstItem="7o9-XA-0vW" firstAttribute="leading" secondItem="XPI-6T-MKi" secondAttribute="leading" constant="16" id="r5g-dx-NLZ"/>
+                            <constraint firstItem="nFf-vo-LsG" firstAttribute="top" secondItem="00S-fV-DKj" secondAttribute="bottom" constant="-9" id="rE8-is-oDU"/>
+                            <constraint firstItem="L7C-dZ-xJy" firstAttribute="leading" secondItem="XPI-6T-MKi" secondAttribute="leading" constant="38" id="vKc-TU-pbl"/>
+                            <constraint firstItem="eDS-Oh-vxr" firstAttribute="top" secondItem="L7C-dZ-xJy" secondAttribute="bottom" constant="8" id="xOC-Wx-SSw"/>
+                            <constraint firstItem="shD-3k-ehH" firstAttribute="leading" secondItem="XPI-6T-MKi" secondAttribute="leading" constant="38" id="y7F-1M-dIl"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Thursday" image="Clock-32.png" selectedImage="Clock Filled-32-2.png" id="68Y-aH-M2d">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="Clock Filled-32"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="categoryFive" destination="rox-0G-hE7" id="tQK-vb-Mzw"/>
+                        <outlet property="categoryFour" destination="00S-fV-DKj" id="rhH-n7-5oA"/>
+                        <outlet property="categoryOne" destination="BH4-23-092" id="5oe-RG-OpP"/>
+                        <outlet property="categorySix" destination="7o9-XA-0vW" id="VgI-0p-X3i"/>
+                        <outlet property="categoryThree" destination="H2a-8J-hRY" id="k37-TK-XuJ"/>
+                        <outlet property="categoryTwo" destination="eDS-Oh-vxr" id="riT-oP-IFf"/>
+                        <outlet property="itemFive" destination="x5S-Bm-wIl" id="K03-Mp-Uau"/>
+                        <outlet property="itemFour" destination="nFf-vo-LsG" id="MOF-3p-AFT"/>
+                        <outlet property="itemOne" destination="L7C-dZ-xJy" id="xvt-mU-VHo"/>
+                        <outlet property="itemSix" destination="shD-3k-ehH" id="YFf-4W-YDX"/>
+                        <outlet property="itemThree" destination="i8C-MR-AJw" id="Hok-rU-JKb"/>
+                        <outlet property="itemTwo" destination="x6i-1C-5Nw" id="DvZ-Qo-RhT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PrB-Bi-J0x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="547" y="778"/>
+        </scene>
+        <!--Friday-->
+        <scene sceneID="Mjd-jr-gfS">
+            <objects>
+                <viewController id="j9b-UZ-TkI" customClass="FridayViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="r3R-ma-AGY"/>
+                        <viewControllerLayoutGuide type="bottom" id="kmY-0f-NCh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="46k-Wa-Z9j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friday's Lunch is:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AKr-wR-VVr">
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ZW-0T-VAh">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnl-2T-5X2">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRk-Sd-4H7">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNW-iP-dvn">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6x-bB-Jgb">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jFu-bJ-z3r">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJT-1S-np4">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zIy-a4-ofQ">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ry-6c-bda">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9o9-5g-4Dr">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DRN-ww-lW9">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dd5-6q-c5d">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9ry-6c-bda" firstAttribute="top" secondItem="hnl-2T-5X2" secondAttribute="bottom" constant="8" id="0B6-X9-4rr"/>
+                            <constraint firstAttribute="centerX" secondItem="AKr-wR-VVr" secondAttribute="centerX" constant="-0.5" id="2iR-Dc-jO4"/>
+                            <constraint firstItem="9o9-5g-4Dr" firstAttribute="top" secondItem="pRk-Sd-4H7" secondAttribute="bottom" constant="8" id="35s-Aq-Aoh"/>
+                            <constraint firstItem="hnl-2T-5X2" firstAttribute="top" secondItem="zIy-a4-ofQ" secondAttribute="bottom" constant="-9" id="6mi-FW-SOS"/>
+                            <constraint firstAttribute="trailing" secondItem="J6x-bB-Jgb" secondAttribute="trailing" constant="16" id="6yC-KU-RKb"/>
+                            <constraint firstItem="AJT-1S-np4" firstAttribute="top" secondItem="AKr-wR-VVr" secondAttribute="bottom" constant="8" id="9sN-Y3-LGk"/>
+                            <constraint firstItem="zNW-iP-dvn" firstAttribute="top" secondItem="9o9-5g-4Dr" secondAttribute="bottom" constant="-9" id="By1-3F-0mc"/>
+                            <constraint firstAttribute="trailing" secondItem="Dd5-6q-c5d" secondAttribute="trailing" constant="16" id="C5x-Pb-tjA"/>
+                            <constraint firstAttribute="trailing" secondItem="jFu-bJ-z3r" secondAttribute="trailing" constant="16" id="HEA-G6-apz"/>
+                            <constraint firstAttribute="trailing" secondItem="DRN-ww-lW9" secondAttribute="trailing" constant="16" id="Jbq-3r-xCg"/>
+                            <constraint firstItem="J6x-bB-Jgb" firstAttribute="top" secondItem="DRN-ww-lW9" secondAttribute="bottom" constant="-9" id="NY4-2h-spM"/>
+                            <constraint firstItem="9ry-6c-bda" firstAttribute="leading" secondItem="46k-Wa-Z9j" secondAttribute="leading" constant="16" id="P3M-Zo-Bm0"/>
+                            <constraint firstItem="Dd5-6q-c5d" firstAttribute="leading" secondItem="46k-Wa-Z9j" secondAttribute="leading" constant="16" id="RZX-AC-Oal"/>
+                            <constraint firstItem="J6x-bB-Jgb" firstAttribute="leading" secondItem="46k-Wa-Z9j" secondAttribute="leading" constant="38" id="Vo4-Fl-fK2"/>
+                            <constraint firstAttribute="trailing" secondItem="1ZW-0T-VAh" secondAttribute="trailing" constant="16" id="WGy-4c-BPA"/>
+                            <constraint firstItem="hnl-2T-5X2" firstAttribute="leading" secondItem="46k-Wa-Z9j" secondAttribute="leading" constant="38" id="WP0-Dv-EPh"/>
+                            <constraint firstAttribute="trailing" secondItem="9ry-6c-bda" secondAttribute="trailing" constant="16" id="XTP-b5-ggE"/>
+                            <constraint firstItem="DRN-ww-lW9" firstAttribute="top" secondItem="zNW-iP-dvn" secondAttribute="bottom" constant="8" id="adE-te-1n9"/>
+                            <constraint firstAttribute="trailing" secondItem="hnl-2T-5X2" secondAttribute="trailing" constant="16" id="c07-yd-zH6"/>
+                            <constraint firstItem="AKr-wR-VVr" firstAttribute="top" secondItem="r3R-ma-AGY" secondAttribute="bottom" constant="8" id="cRC-ZY-ZeA"/>
+                            <constraint firstAttribute="trailing" secondItem="zNW-iP-dvn" secondAttribute="trailing" constant="16" id="gcL-2W-nfQ"/>
+                            <constraint firstItem="AJT-1S-np4" firstAttribute="leading" secondItem="46k-Wa-Z9j" secondAttribute="leading" constant="16" id="h3Q-0d-NuA"/>
+                            <constraint firstAttribute="trailing" secondItem="pRk-Sd-4H7" secondAttribute="trailing" constant="16" id="hfB-6a-prE"/>
+                            <constraint firstItem="jFu-bJ-z3r" firstAttribute="leading" secondItem="46k-Wa-Z9j" secondAttribute="leading" constant="38" id="hlW-Oc-PQY"/>
+                            <constraint firstAttribute="trailing" secondItem="AJT-1S-np4" secondAttribute="trailing" constant="16" id="kD0-U9-RjB"/>
+                            <constraint firstItem="9o9-5g-4Dr" firstAttribute="leading" secondItem="46k-Wa-Z9j" secondAttribute="leading" constant="16" id="kJ7-RI-rjd"/>
+                            <constraint firstItem="1ZW-0T-VAh" firstAttribute="leading" secondItem="46k-Wa-Z9j" secondAttribute="leading" constant="38" id="kJG-gy-Rn5"/>
+                            <constraint firstItem="Dd5-6q-c5d" firstAttribute="top" secondItem="J6x-bB-Jgb" secondAttribute="bottom" constant="8" id="l7L-Nv-8zM"/>
+                            <constraint firstItem="1ZW-0T-VAh" firstAttribute="top" secondItem="AJT-1S-np4" secondAttribute="bottom" constant="-9" id="pRS-NM-c5m"/>
+                            <constraint firstItem="zIy-a4-ofQ" firstAttribute="leading" secondItem="46k-Wa-Z9j" secondAttribute="leading" constant="16" id="qCD-Y2-dAU"/>
+                            <constraint firstItem="DRN-ww-lW9" firstAttribute="leading" secondItem="46k-Wa-Z9j" secondAttribute="leading" constant="16" id="rXD-O7-8G6"/>
+                            <constraint firstItem="zIy-a4-ofQ" firstAttribute="top" secondItem="1ZW-0T-VAh" secondAttribute="bottom" constant="8" id="sWo-3C-t8A"/>
+                            <constraint firstItem="jFu-bJ-z3r" firstAttribute="top" secondItem="Dd5-6q-c5d" secondAttribute="bottom" constant="-9" id="tc5-Vd-g4U"/>
+                            <constraint firstAttribute="trailing" secondItem="zIy-a4-ofQ" secondAttribute="trailing" constant="16" id="tia-Pe-lSQ"/>
+                            <constraint firstItem="zNW-iP-dvn" firstAttribute="leading" secondItem="46k-Wa-Z9j" secondAttribute="leading" constant="38" id="u6G-eU-0wU"/>
+                            <constraint firstItem="pRk-Sd-4H7" firstAttribute="leading" secondItem="46k-Wa-Z9j" secondAttribute="leading" constant="38" id="uLY-V7-GVv"/>
+                            <constraint firstAttribute="trailing" secondItem="9o9-5g-4Dr" secondAttribute="trailing" constant="16" id="une-Uc-H8a"/>
+                            <constraint firstItem="pRk-Sd-4H7" firstAttribute="top" secondItem="9ry-6c-bda" secondAttribute="bottom" constant="-9" id="xOR-Um-IX6"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Friday" image="Clock-32.png" selectedImage="Clock-32.png" id="Mmo-nj-d0H">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="Clock Filled-32"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="categoryFive" destination="DRN-ww-lW9" id="8u0-ps-iPL"/>
+                        <outlet property="categoryFour" destination="9o9-5g-4Dr" id="wSC-9a-Vtz"/>
+                        <outlet property="categoryOne" destination="AJT-1S-np4" id="JYK-dy-7zS"/>
+                        <outlet property="categorySix" destination="Dd5-6q-c5d" id="DPZ-j4-Wbq"/>
+                        <outlet property="categoryThree" destination="9ry-6c-bda" id="mIY-Ad-Uiq"/>
+                        <outlet property="categoryTwo" destination="zIy-a4-ofQ" id="T5S-ws-c0N"/>
+                        <outlet property="itemFive" destination="J6x-bB-Jgb" id="qnv-md-l5z"/>
+                        <outlet property="itemFour" destination="zNW-iP-dvn" id="aom-Nb-GWP"/>
+                        <outlet property="itemOne" destination="1ZW-0T-VAh" id="yIJ-LP-3VV"/>
+                        <outlet property="itemSix" destination="jFu-bJ-z3r" id="e7e-4O-4ae"/>
+                        <outlet property="itemThree" destination="pRk-Sd-4H7" id="BlH-Iq-AzT"/>
+                        <outlet property="itemTwo" destination="hnl-2T-5X2" id="Xzd-lq-inx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jk3-c5-EPT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-84" y="778"/>
+        </scene>
+        <!--Monday-->
+        <scene sceneID="ALK-EU-Kf2">
+            <objects>
+                <viewController id="n9f-Oa-waP" customClass="MondayViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NeV-oe-EnU"/>
+                        <viewControllerLayoutGuide type="bottom" id="NCk-BQ-oZ4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vew-Zl-F6W">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8B1-CB-h7E">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HHK-vB-TJh">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NXV-8V-OLn">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gc8-PF-Yky">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfr-he-tZM">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monday's Lunch is:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aGN-ds-qx3">
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mbW-PD-JCl">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0e-Bh-6xi">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rdk-ph-GQd">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3pf-Jf-FWa">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UEK-RK-nYk">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f6P-gf-7Vm">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mU8-LI-gb7">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Kfr-he-tZM" firstAttribute="leading" secondItem="Vew-Zl-F6W" secondAttribute="leading" constant="38" id="1VB-NZ-caN"/>
+                            <constraint firstItem="mU8-LI-gb7" firstAttribute="top" secondItem="Kfr-he-tZM" secondAttribute="bottom" constant="8" id="2TO-6T-cr4"/>
+                            <constraint firstItem="aGN-ds-qx3" firstAttribute="top" secondItem="Vew-Zl-F6W" secondAttribute="top" constant="28" id="3C4-lI-4xL"/>
+                            <constraint firstItem="mbW-PD-JCl" firstAttribute="leading" secondItem="Vew-Zl-F6W" secondAttribute="leading" constant="16" id="4Pv-AS-r29"/>
+                            <constraint firstAttribute="trailing" secondItem="f6P-gf-7Vm" secondAttribute="trailing" constant="16" id="5tK-TY-Pkp"/>
+                            <constraint firstItem="rdk-ph-GQd" firstAttribute="top" secondItem="HHK-vB-TJh" secondAttribute="bottom" constant="8" id="7H6-UI-hQy"/>
+                            <constraint firstAttribute="trailing" secondItem="NXV-8V-OLn" secondAttribute="trailing" constant="16" id="9tm-ZY-BNj"/>
+                            <constraint firstItem="f6P-gf-7Vm" firstAttribute="top" secondItem="mU8-LI-gb7" secondAttribute="bottom" constant="-9" id="AZ1-DF-epv"/>
+                            <constraint firstItem="8B1-CB-h7E" firstAttribute="leading" secondItem="Vew-Zl-F6W" secondAttribute="leading" constant="38" id="BVP-di-lxC"/>
+                            <constraint firstAttribute="centerX" secondItem="aGN-ds-qx3" secondAttribute="centerX" id="C2d-FI-P0h"/>
+                            <constraint firstItem="NXV-8V-OLn" firstAttribute="leading" secondItem="Vew-Zl-F6W" secondAttribute="leading" constant="38" id="G1f-wc-GnO"/>
+                            <constraint firstItem="f6P-gf-7Vm" firstAttribute="leading" secondItem="Vew-Zl-F6W" secondAttribute="leading" constant="38" id="GYi-We-ubW"/>
+                            <constraint firstItem="u0e-Bh-6xi" firstAttribute="leading" secondItem="Vew-Zl-F6W" secondAttribute="leading" constant="16" id="LRe-D4-ehB"/>
+                            <constraint firstItem="mbW-PD-JCl" firstAttribute="top" secondItem="aGN-ds-qx3" secondAttribute="bottom" constant="8" id="Nkh-su-fgA"/>
+                            <constraint firstAttribute="trailing" secondItem="Kfr-he-tZM" secondAttribute="trailing" constant="16" id="O8K-Yv-3iq"/>
+                            <constraint firstItem="UEK-RK-nYk" firstAttribute="top" secondItem="gc8-PF-Yky" secondAttribute="bottom" constant="8" id="PJS-8d-Fj2"/>
+                            <constraint firstItem="gc8-PF-Yky" firstAttribute="top" secondItem="3pf-Jf-FWa" secondAttribute="bottom" constant="-9" id="Qfr-7a-vQz"/>
+                            <constraint firstItem="3pf-Jf-FWa" firstAttribute="leading" secondItem="Vew-Zl-F6W" secondAttribute="leading" constant="16" id="VEf-0e-sDs"/>
+                            <constraint firstItem="Kfr-he-tZM" firstAttribute="top" secondItem="UEK-RK-nYk" secondAttribute="bottom" constant="-9" id="ZVM-W3-kYp"/>
+                            <constraint firstItem="HHK-vB-TJh" firstAttribute="leading" secondItem="Vew-Zl-F6W" secondAttribute="leading" constant="38" id="bQq-K0-CAB"/>
+                            <constraint firstItem="8B1-CB-h7E" firstAttribute="top" secondItem="mbW-PD-JCl" secondAttribute="bottom" constant="-9" id="dpy-8J-Ame"/>
+                            <constraint firstItem="rdk-ph-GQd" firstAttribute="leading" secondItem="Vew-Zl-F6W" secondAttribute="leading" constant="16" id="ei6-du-Hue"/>
+                            <constraint firstItem="u0e-Bh-6xi" firstAttribute="top" secondItem="8B1-CB-h7E" secondAttribute="bottom" constant="8" id="iRK-of-630"/>
+                            <constraint firstItem="UEK-RK-nYk" firstAttribute="leading" secondItem="Vew-Zl-F6W" secondAttribute="leading" constant="16" id="ic0-Nz-EIN"/>
+                            <constraint firstItem="NXV-8V-OLn" firstAttribute="top" secondItem="rdk-ph-GQd" secondAttribute="bottom" constant="-9" id="qiS-OE-9Ob"/>
+                            <constraint firstItem="gc8-PF-Yky" firstAttribute="leading" secondItem="Vew-Zl-F6W" secondAttribute="leading" constant="38" id="u2S-cn-14C"/>
+                            <constraint firstAttribute="trailing" secondItem="HHK-vB-TJh" secondAttribute="trailing" constant="16" id="uek-Co-2oS"/>
+                            <constraint firstItem="HHK-vB-TJh" firstAttribute="top" secondItem="u0e-Bh-6xi" secondAttribute="bottom" constant="-9" id="v2O-PJ-DAL"/>
+                            <constraint firstItem="3pf-Jf-FWa" firstAttribute="top" secondItem="NXV-8V-OLn" secondAttribute="bottom" constant="8" id="vki-2S-m83"/>
+                            <constraint firstAttribute="trailing" secondItem="gc8-PF-Yky" secondAttribute="trailing" constant="16" id="wL9-PY-si8"/>
+                            <constraint firstItem="mU8-LI-gb7" firstAttribute="leading" secondItem="Vew-Zl-F6W" secondAttribute="leading" constant="16" id="wpw-b1-ijU"/>
+                            <constraint firstAttribute="trailing" secondItem="8B1-CB-h7E" secondAttribute="trailing" constant="16" id="zoL-Sd-hTF"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Monday" image="Clock-32.png" selectedImage="mon.png" id="9Dj-Ff-UZP">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="Clock Filled-32"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="categoryFive" destination="UEK-RK-nYk" id="jqd-0X-nqI"/>
+                        <outlet property="categoryFour" destination="3pf-Jf-FWa" id="DhL-OT-clS"/>
+                        <outlet property="categoryOne" destination="mbW-PD-JCl" id="KWd-Xy-O6p"/>
+                        <outlet property="categorySix" destination="mU8-LI-gb7" id="Ac0-FX-u7h"/>
+                        <outlet property="categoryThree" destination="rdk-ph-GQd" id="OOP-JL-6gU"/>
+                        <outlet property="categoryTwo" destination="u0e-Bh-6xi" id="DnP-39-rlY"/>
+                        <outlet property="itemFive" destination="Kfr-he-tZM" id="6m4-nY-BnC"/>
+                        <outlet property="itemFour" destination="gc8-PF-Yky" id="4wu-Af-8YG"/>
+                        <outlet property="itemOne" destination="8B1-CB-h7E" id="Q2G-e3-AXM"/>
+                        <outlet property="itemSix" destination="f6P-gf-7Vm" id="f7N-XK-8Qz"/>
+                        <outlet property="itemThree" destination="NXV-8V-OLn" id="xub-Bf-b2u"/>
+                        <outlet property="itemTwo" destination="HHK-vB-TJh" id="liR-if-7WE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uDx-zM-09o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-84" y="-558"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="VgQ-gL-aym">
+            <objects>
+                <tabBarController id="DAO-aB-UhH" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Rqd-xz-Ezn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="n9f-Oa-waP" kind="relationship" relationship="viewControllers" id="YFI-Sq-6jf"/>
+                        <segue destination="mcx-ei-0gQ" kind="relationship" relationship="viewControllers" id="J9A-RR-kOb"/>
+                        <segue destination="B1v-qq-jfL" kind="relationship" relationship="viewControllers" id="8LF-dT-3S0"/>
+                        <segue destination="YbR-At-nPw" kind="relationship" relationship="viewControllers" id="nvq-rh-3eU"/>
+                        <segue destination="j9b-UZ-TkI" kind="relationship" relationship="viewControllers" id="JI5-eh-5aG"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hh3-MU-wJL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-84" y="124"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Clock Filled-32" width="30" height="30"/>
+        <image name="Clock Filled-32-2.png" width="32" height="32"/>
+        <image name="Clock-32.png" width="32" height="32"/>
+        <image name="first" width="30" height="30"/>
+        <image name="mon.png" width="25" height="25"/>
+        <image name="tue.png" width="25" height="25"/>
+    </resources>
+</document>

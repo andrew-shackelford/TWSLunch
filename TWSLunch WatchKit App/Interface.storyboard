@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7531" systemVersion="14C109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4dy-I9-aEL">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Monday-->
+        <scene sceneID="biy-UF-IFG">
+            <objects>
+                <controller identifier="MondayInterfaceController" title="Monday" id="4dy-I9-aEL" customClass="MondayInterfaceController">
+                    <items>
+                        <label alignment="left" text="Loading..." numberOfLines="0" id="zwT-bT-Gd0"/>
+                    </items>
+                    <connections>
+                        <outlet property="mainLabel" destination="zwT-bT-Gd0" id="npn-km-mIC"/>
+                        <segue destination="VkH-ve-TOE" kind="relationship" relationship="nextPage" id="Uw8-6S-9e2"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-109" y="421"/>
+        </scene>
+        <!--Thursday-->
+        <scene sceneID="pdM-yN-hHG">
+            <objects>
+                <controller identifier="ThursdayInterfaceController" title="Thursday" id="rVs-bE-TTz" customClass="ThursdayInterfaceController">
+                    <items>
+                        <label alignment="left" text="Loading..." numberOfLines="0" id="WkZ-Ay-uUe"/>
+                    </items>
+                    <connections>
+                        <outlet property="mainLabel" destination="WkZ-Ay-uUe" id="grF-iC-waQ"/>
+                        <segue destination="f3p-Oy-VhZ" kind="relationship" relationship="nextPage" id="U5T-Vn-1CY"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="479" y="421"/>
+        </scene>
+        <!--Tuesday-->
+        <scene sceneID="bfl-w1-vLY">
+            <objects>
+                <controller identifier="TuesdayInterfaceController" title="Tuesday" id="VkH-ve-TOE" customClass="TuesdayInterfaceController">
+                    <items>
+                        <label alignment="left" text="Loading..." numberOfLines="0" id="o4W-sD-VBK"/>
+                    </items>
+                    <connections>
+                        <outlet property="mainLabel" destination="o4W-sD-VBK" id="EAK-r2-ICu"/>
+                        <segue destination="AeY-m0-aRE" kind="relationship" relationship="nextPage" id="KvY-6s-VOI"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="97" y="421"/>
+        </scene>
+        <!--Wednesday-->
+        <scene sceneID="dHF-Ya-ZQu">
+            <objects>
+                <controller identifier="WednesdayInterfaceController" title="Wednesday" id="AeY-m0-aRE" customClass="WednesdayInterfaceController">
+                    <items>
+                        <label alignment="left" text="Loading..." numberOfLines="0" id="tWf-Kv-Xml"/>
+                    </items>
+                    <connections>
+                        <outlet property="mainLabel" destination="tWf-Kv-Xml" id="CFL-9f-VD6"/>
+                        <segue destination="rVs-bE-TTz" kind="relationship" relationship="nextPage" id="hnb-vr-Ith"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="289" y="421"/>
+        </scene>
+        <!--Friday-->
+        <scene sceneID="Vvc-E8-DxB">
+            <objects>
+                <controller identifier="FridayInterfaceController" title="Friday" id="f3p-Oy-VhZ" customClass="FridayInterfaceController">
+                    <items>
+                        <label alignment="left" text="Loading..." numberOfLines="0" id="8qQ-82-8e6"/>
+                    </items>
+                    <connections>
+                        <outlet property="mainLabel" destination="8qQ-82-8e6" id="YCj-2g-9b2"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="668" y="421"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="-153" y="734"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController"/>
+            </objects>
+            <point key="canvasLocation" x="54" y="756"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="XGB-jl-1MW">
+            <objects>
+                <glanceController id="g0G-8R-mvQ" customClass="GlanceInterfaceController">
+                    <items>
+                        <group alignment="left" id="A1v-1i-mqa">
+                            <items>
+                                <label alignment="left" text="Label" numberOfLines="3" id="qVP-lH-D7s"/>
+                            </items>
+                        </group>
+                        <group alignment="left" id="QFT-Qd-9oX">
+                            <items>
+                                <label alignment="left" text="Label" numberOfLines="30" id="rH8-zh-5dk"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="mainLabel" destination="rH8-zh-5dk" id="hcD-HK-An2"/>
+                        <outlet property="topLabel" destination="qVP-lH-D7s" id="Jpa-Iu-hnh"/>
+                    </connections>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="351" y="689"/>
+        </scene>
+    </scenes>
+</document>
